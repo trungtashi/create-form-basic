@@ -1,0 +1,13 @@
+body{
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Tahoma, sans-serif';
+    font-weight: bold;
+}
+select{
+    width: 200px;
+}
+.email{
+    width: 400px;
+}
+.number{
+    width: 50px;
+}

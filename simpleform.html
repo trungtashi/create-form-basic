@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo form cơ bản</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="simpleform.html" method="get">
+        <h2>Oder Form</h2>
+        <p>What would you like to buy?</p>
+        <!-- select -->
+        <select>
+            <option value="">A</option>
+            <option value="">B (+  0.5$)</option>
+            <option value="">C (+  0.5$)</option>
+        </select>
+        <!-- radio -->
+        <p>How many would you like to oder?</p>
+        <label for="">
+            <input type="radio" name="oder"> 1 - $10 <br>
+            <input type="radio" name="oder"> 2 - $20 <br>
+            <input type="radio" name="oder"> 3 - $30
+        </label>
+        <!-- Name -->
+        <p>Name</p>
+        <label for="">
+            <input type="text" name="first-name" placeholder="First name">
+            <input type="text" name="last-name" placeholder="last name">
+        </label>
+        <!-- Email -->
+        <p>Email</p>
+        <input type="text" name="email" class="email">
+        <!-- Phone number -->
+        <p>Phone Number</p>
+        <label for="">
+            <input type="number" name="phone1" class="number"> -
+            <input type="number" name="phone2" class="number"> -
+            <input type="number" name="phone3" class="number"> 
+        </label> <br><br>
+        <!-- Submit -->
+        <label for="">
+            <input type="submit" value="submit">
+        </label>
+    </form>
+</body>
+</html>
